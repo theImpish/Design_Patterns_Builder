@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Training\C++\designPatterns\Builder\Builder\main.cpp(103,16): error C2280: 'BurgerBuilder::BurgerBuilder(void)': attempting to reference a deleted function
+D:\Training\C++\designPatterns\Builder\Builder\main.cpp(59,1): message : compiler has generated 'BurgerBuilder::BurgerBuilder' here
+D:\Training\C++\designPatterns\Builder\Builder\main.cpp(59,1): message : 'BurgerBuilder::BurgerBuilder(void)': function was implicitly deleted because a base class invokes a deleted or inaccessible function 'SandwichBuilder::SandwichBuilder(void)'
+D:\Training\C++\designPatterns\Builder\Builder\main.cpp(38,1): message : 'SandwichBuilder::SandwichBuilder(void)': function was implicitly deleted because a data member 'SandwichBuilder::product' has either no appropriate default constructor or overload resolution was ambiguous
+D:\Training\C++\designPatterns\Builder\Builder\main.cpp(37,11): message : see declaration of 'SandwichBuilder::product'
