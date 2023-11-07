@@ -21,7 +21,13 @@
     <ClCompile Include="Motorbike.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Naked.cpp">
+    <ClCompile Include="BikeType_Naked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BikeType_Race.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +35,16 @@
     <ClInclude Include="MotorbikeBuilder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Naked.h">
+    <ClInclude Include="BikeType_Naked.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Motorbike.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BikeType_Race.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

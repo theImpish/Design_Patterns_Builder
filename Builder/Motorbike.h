@@ -6,9 +6,9 @@
 class Motorbike
 {
 private:
-	std::vector<std::string> m_parts;
-
 public:
+	std::vector<std::string> m_parts;
+	std::string p;
 	void AddPart(std::string part);
 	void ListParts();
 };

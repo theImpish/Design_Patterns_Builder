@@ -127,14 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Director.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Motorbike.cpp" />
-    <ClCompile Include="Naked.cpp" />
+    <ClCompile Include="BikeType_Naked.cpp" />
+    <ClCompile Include="BikeType_Race.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Director.h" />
     <ClInclude Include="Motorbike.h" />
     <ClInclude Include="MotorbikeBuilder.h" />
-    <ClInclude Include="Naked.h" />
+    <ClInclude Include="BikeType_Naked.h" />
+    <ClInclude Include="BikeType_Race.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

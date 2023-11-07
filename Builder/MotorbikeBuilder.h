@@ -1,12 +1,9 @@
 #pragma once
 
-enum class Frame{ Aluminium, Steel, Carbon };
-enum class Wheels { Dirt, Road, Track };
-
 class MotorbikeBuilder
 {
 public:
-	MotorbikeBuilder() {};
+	//MotorbikeBuilder() {};
 	virtual ~MotorbikeBuilder() {};
 	virtual void BuildFrame() const = 0;
 	virtual void BuildEngine() const = 0;
